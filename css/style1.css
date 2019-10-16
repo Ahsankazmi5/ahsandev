@@ -1,0 +1,17 @@
+/* Header with Bootstrap 
+-----------------------------------------------*/
+body { font-family: 'Rubik', sans-serif; }
+header { position: fixed; top: 0; width: 100%; z-index: 9999; }
+header nav .navbar-brand { margin-right: 0px; display: inline-block; }
+header nav .navbar-brand img { width: 160px; height: 50px; }
+.navbar-light .navbar-nav li.active .nav-link { color: #fff; border-bottom: 1px solid #fff; }
+.navbar-light .navbar-nav li .nav-link:hover { color: #fff; border-bottom: 1px solid #fff; }
+.navbar-light .navbar-nav .nav-link { color: #fff; font-size: 14px; line-height: 1; font-family: 'Rubik', sans-serif; }
+.banner { position: relative; }
+.banner img { width: 100%; }
+.banner h1 { position: absolute; top: 40%; width: 100%; text-align: center; font-family: 'Lobster', cursive; font-size: 60px; line-height: 80px; color: #fff; }
+.banner h1 .typewrite { text-decoration: none; outline: none; color: #352d2d; }
+
+/*Progress Bar Css*//*Progress Bar Css*/
+
+.progress { display: flex; font-size: 0.75rem; line-height: 1rem; text-align: center; background-color: rgb(233, 236, 239); overflow: hidden; border-radius: 0.25rem; }
