@@ -40,12 +40,12 @@ $(function() {
         if(bodyScroll > 100){
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'images/logo-dark.png');
+            logo.attr('src', 'http://saak.pindibazar.com/wp-content/themes/saaktheme/images/logo-dark.png');
 
         }else{
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'images/logo.png');
+            logo.attr('src', 'http://saak.pindibazar.com/wp-content/themes/saaktheme/images/logo.png');
         }
     });
 
