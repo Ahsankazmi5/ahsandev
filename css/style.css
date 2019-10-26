@@ -286,7 +286,7 @@ span, a, a:hover {
 
 @media only screen and (min-width: 768px) {
   .cd-headline {
-    font-size: 4.4rem;
+    font-size: 2rem;
     font-weight: 300;
   }
 }
@@ -2449,7 +2449,7 @@ footer p {
   }
   .hero-text .text h1 {
     line-height: 1;
-    font-size: 4.75rem;
+    font-size: 2.5rem;
   }
 
   .date {
@@ -2532,7 +2532,7 @@ footer p {
     text-align: center;
   }
   .hero-text .text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1;
   }
   .hero-text .title {
