@@ -1365,6 +1365,11 @@ img {
   text-transform: uppercase;
   text-align: left;
 }
+@media screen and (max-width: 991px) {
+.hero-text .text h1 {
+   font-size: 45px !important;
+}
+}
 .hero-text .title span {
   height: 15px;
   background: #f16a2e;
