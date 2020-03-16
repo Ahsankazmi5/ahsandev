@@ -2021,8 +2021,126 @@ img {
   background: #FFAB00;
 }
 
+/* .timeline {
+  padding: 100px 0px;
+}
 
-/**************** SERVICES Css **********/
+.top-heading h3 {
+  font-size: 90px;
+  line-height: 70px;
+  position: relative;
+  color: #1c1c1c;
+  font-family: "Trump Gothic East";
+  font-weight: bold;
+  padding-bottom: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+.top-heading h3::after {
+  content: "";
+  width: 50px;
+  height: 10px;
+  background: #f16a2e;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.top-heading p {
+  font-size: 24px;
+  line-height: 1.5;
+  display: inline-block;
+  width: 80%;
+  color: #1c1c1c;
+  margin-bottom: 55px;
+  font-family: "Maison Neue";
+}
+
+.date {
+  text-align: center;
+  margin-bottom: 30px;
+  min-height: 160px;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  transition: all 0.8s;
+  cursor: default;
+}
+.date h3 {
+  font-size: 70px;
+  line-height: 1.5;
+  color: #1c1c1c;
+  font-family: "Trump Gothic East";
+  font-weight: bold;
+  margin-bottom: 20px;
+  transition: all 0.8s;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 40px;
+}
+.date p {
+  transition: all 0.8s;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 200px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #1c1c1c;
+  font-family: "Maison Neue";
+  margin-bottom: 0;
+}
+.date:hover h3 {
+  color: #f16a2e;
+  top: 10px;
+  transition: all 0.8s;
+}
+.date:hover p {
+  transition: all 0.8s;
+  top: 110px;
+}
+.date:hover::before {
+  transition: 0.1s transform linear, 0.1s height linear 0.1s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: #f16a2e;
+}
+.date:hover::after {
+  transition: 0.1s transform linear 0.2s, 0.1s height linear 0.3s;
+  transform: translateX(0);
+  height: 100%;
+  border-color: #f16a2e;
+}
+.date::before {
+  box-sizing: border-box;
+  transform: translateX(100%);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 99.5%;
+  height: 2px;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+.date::after {
+  box-sizing: border-box;
+  transform: translateX(-100%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99.5%;
+  height: 2px;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.m-b-0 {
+  margin-bottom: 0 !important;
+} */
+
+
+/**************** Stack Css **********/
 .stack {
   padding: 100px 0px;
   background: #000;
