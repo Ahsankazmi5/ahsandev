@@ -286,7 +286,7 @@ span, a, a:hover {
 
 @media only screen and (min-width: 768px) {
   .cd-headline {
-    font-size: 4.4rem;
+    font-size: 2rem;
     font-weight: 300;
   }
 }
@@ -1364,6 +1364,11 @@ img {
   color: #fff;
   text-transform: uppercase;
   text-align: left;
+}
+@media screen and (max-width: 991px) {
+.hero-text .text h1 {
+   font-size: 45px !important;
+}
 }
 .hero-text .title span {
   height: 15px;
@@ -2449,7 +2454,7 @@ footer p {
   }
   .hero-text .text h1 {
     line-height: 1;
-    font-size: 4.75rem;
+    font-size: 2.5rem;
   }
 
   .date {
@@ -2532,7 +2537,7 @@ footer p {
     text-align: center;
   }
   .hero-text .text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1;
   }
   .hero-text .title {
@@ -2567,7 +2572,7 @@ footer p {
     width: 100%;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1;
     padding-bottom: 0;
     margin-bottom: 0.5rem;
