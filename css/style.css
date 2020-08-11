@@ -3090,6 +3090,8 @@ footer p {
   .navbar__menu .menu {
     margin-left: 30px;
     padding-top: 1.875rem;
+    position: relative;
+    z-index: 9;
   }
 
   .hero-text {
