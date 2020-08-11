@@ -2205,6 +2205,10 @@ img {
   background: #f5f5f5;
 }
 
+.work-inner {
+  margin-top: 15px;
+}
+
 .section-padding {
   padding: 100px 0;
 }
@@ -2975,6 +2979,17 @@ footer p {
     width: 22%;
   }
 
+  .cd-headline.clip span {
+    font-size: 40px;
+    line-height: 60px;
+    background: rgba(0,0,0,.5);
+  }
+
+  .hero-text .text h2 {
+    font-size: 20px !important;
+    line-height: 60px !important;
+  }
+  
   .hero-text .title p {
     display: block;
     line-height: 45px;
