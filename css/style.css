@@ -1866,6 +1866,7 @@ img {
   left: 0;
   padding: 33px 30px 25px;
   background: transparent;
+  z-index: 9;
 }
 
 @media screen and (max-width: 767px) {
