@@ -2989,7 +2989,11 @@ footer p {
     font-size: 20px !important;
     line-height: 60px !important;
   }
-  
+
+  .hero .container {
+    margin-left: 0 !important;
+  }
+
   .hero-text .title p {
     display: block;
     line-height: 45px;
