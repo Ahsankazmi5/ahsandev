@@ -2272,6 +2272,14 @@ ul.work li {
   display: none;
 }
 
+.work-posts .item {
+  height: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  border: 3px solid #ccc;
+  margin: 5px 0;
+}
+
 .work .grid figure {
   position: relative;
   float: left;
@@ -2299,7 +2307,7 @@ figure.effect-ruby img {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: scale(1.15);
-  transform: scale(1.15);
+  transform: scale(1);
 }
 
 .grid figure img {
@@ -2334,14 +2342,14 @@ figure.effect-ruby img {
 figure.effect-ruby:hover img {
   opacity: 0.1;
   -webkit-transform: scale(1);
-  transform: scale(1);
+  transform: scale(1.15);
 }
 
 figure.effect-ruby img {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 .grid figure img {
@@ -2593,6 +2601,7 @@ ul.work {
 
 .footer .footer-alt ul {
   margin-top: 0px !important;
+  margin-bottom: 15px;
 }
 
 /***************| about |*********************/
