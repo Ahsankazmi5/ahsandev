@@ -2043,11 +2043,11 @@ img {
   margin-top: 3rem !important;
 }
 
-.heading-section h1.big.big-2 {
+.heading-section h2.big.big-2 {
   right: 0;
 }
 
-.heading-section h1.big {
+.heading-section h2.big {
   position: absolute;
   top: 66px;
   left: 0;
